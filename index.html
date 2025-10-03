@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <div class="container">
     <h1>My To-Do List</h1>
-    <input type="text"> <input type="submit">
-    <div >
-        <ul>
-            <li>Item 1</li>
+        <div class="input-grou">
+            <input type="text" id="taskInput" placeholder="Enter a task...">
+            <button id="addTask">Add</button>
+        </div>
+        <ul id="taskList">
+            <!-- Tasks will show up here -->
         </ul>
     </div>
 </body>
 </html>
+
